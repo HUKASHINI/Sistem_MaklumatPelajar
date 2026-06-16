@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>Carian Pelajar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Sistem Maklumat Pelajar</h1>
+
+    <nav>
+        <a href="index.html">Utama</a>
+        <a href="register.html">Daftar</a>
+        <a href="login.html">Log Masuk</a>
+        <a href="search.html">Carian</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Carian Maklumat Pelajar</h2>
+
+    <button onclick="getStudents()">
+        Papar Data API
+    </button>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="js/api.js"></script>
+
+</body>
+</html>
